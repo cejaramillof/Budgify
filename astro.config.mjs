@@ -7,4 +7,5 @@ export default defineConfig({
   integrations: [tailwind()],
   site: 'https://cejaramillof.github.io',
   base: '/Budgify',
+  trailingSlash: "always"
 });
